@@ -6,7 +6,18 @@ num2 = int(input("Enter num2: "))
 if sign == '+':
     print(add(num1,num2))
 elif sign == '-':
-    pass
+    def subtraction(a, b):
+        """
+        Subtracts two numbers.
+
+        Parameters:
+        a (float): The first number.
+        b (float): The second number.
+
+        Returns:
+        float: The result of subtracting b from a.
+        """
+        return a - b
 elif sign == '*':
     pass
 elif sign == '/':
