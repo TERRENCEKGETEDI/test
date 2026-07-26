@@ -13,16 +13,3 @@ def divide(num1, num2):
         return "not divisible by zero"
     return num1 / num2
 
-
-# def get_name(name) -> str:
-#     """
-#     this function gets a name and return
-
-
-#     args
-#      name : str
-
-#     return
-#      name str
-
-#     """
