@@ -1,12 +1,13 @@
 import divide
 
 
+from add import add 
 sign = input("enter the arithmetic operator: ")
 num1 = int(input("Enter num1: "))
 num2 = int(input("Enter num2: "))
 
 if sign == '+':
-    pass
+    print(add(num1,num2))
 elif sign == '-':
     pass
 elif sign == '*':
