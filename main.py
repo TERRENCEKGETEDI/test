@@ -1,5 +1,10 @@
 from multiplication import multiplication
 
+import divide
+import divide
+
+
+from add import add 
 sign = input("enter the arithmetic operator: ")
 num1 = int(input("Enter num1: "))
 num2 = int(input("Enter num2: "))
@@ -11,6 +16,7 @@ elif sign == '-':
 elif sign == '*':
    print(multiplication(num1,num2))
 elif sign == '/':
-    pass
+    quotient=divide.divide(num1,num2)
+    print(f'{num1}/{num2}={quotient}')
 else:
     print("arithmatic operator not found")
