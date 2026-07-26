@@ -1,14 +1,15 @@
-from add import add 
+from multiplication import multiplication
+
 sign = input("enter the arithmetic operator: ")
 num1 = int(input("Enter num1: "))
 num2 = int(input("Enter num2: "))
 
 if sign == '+':
-    print(add(num1,num2))
+   pass 
 elif sign == '-':
     pass
 elif sign == '*':
-    pass
+   print(multiplication(num1,num2))
 elif sign == '/':
     pass
 else:
